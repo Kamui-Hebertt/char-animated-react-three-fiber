@@ -13,7 +13,7 @@ export function CharWoman(props) {
 
 
   useEffect(()=>{
-    // const anim = hovered ? "Headbutt" : "Flying_Idle"
+    
     actions["Idle"].reset().fadeIn(0.5).play();
     return () => actions["Idle"].fadeOut(0.5);
   }, []);

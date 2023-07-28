@@ -7,7 +7,7 @@ const Experience = () => {
     <OrbitControls />
     <ambientLight intensity={2} />
 
-    <CharWoman /> 
+    <CharWoman scale={5} position-y={-7.5} /> 
     
    
     {/* <Medea scale={1}
