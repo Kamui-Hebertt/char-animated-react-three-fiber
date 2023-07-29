@@ -18,8 +18,12 @@ const Interface = () => {
         variant={index === animationIndex ? 'filled' : 'light'}
         onClick={()=> setAnimationIndex(index)}
         >
-          {animation}
-
+          {animation === "GuitarPlaying" && " Guitar Playing"}
+          {animation === "Idle" && "Idle"}
+          {animation === "Running" && "Running"}
+          {animation === "SalsaDancing" && "Salsa Dancing"}
+          {animation === "TPose" && "T Pose"}
+          
         </Button>
       ))}
     </Stack>
